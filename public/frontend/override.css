@@ -1,0 +1,193 @@
+.h-35 {
+    height: 35% !important
+}
+
+.navbar-nav {
+    margin-bottom: auto;
+}
+
+.bg-grey {
+    background-color: #F2F2EB;
+    background: #F2F2EB;
+}
+
+.searchInput {
+    background-color: #cccccc;
+}
+
+.bg-grey1 {
+    background: #ccc;
+}
+
+.bg-grey2 {
+    background-color: #F2F2EB;
+    background: #F2F2EB;
+    border: none;
+}
+
+.date-div {
+    background-color: #F2F2EB;
+    border-radius: 10px;
+    border: none;
+}
+
+.bg-green {
+    background-color: #224314;
+}
+.bg-white {
+    background: #ffffff;
+}
+
+.search-button {
+    border-radius: 0px 7px 7px 0px;
+    border: none;
+}
+
+button.fa.fa-search.bg-grey1.search-button:focus {
+    outline: none;
+}
+
+.text-green {
+    color: #1E5631 !important;
+}
+
+.font-custom-bold {
+    font-weight: 500 !important;
+}
+
+.text-grey-custom {
+    color: #4C4C4C !important;
+}
+
+.date-pd {
+    padding: 5px 20px 5px 20px;
+}
+
+.small-image {
+    border-radius: 30px !important;
+}
+
+@media only screen and (max-width: 768px) {
+    .custom-table {
+        font-size: 0.8em !important
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .custom-table {
+        font-size: 0.9em !important
+    }
+
+}
+
+.custom-mt-10 {
+    margin-top: 0px !important;
+}
+
+.custom-mt2-10 {
+    margin-top: 0px !important;
+}
+
+@media (min-width: 320px) and (max-width: 768px) {
+    .custom-mt-10 {
+        margin-top: 30px !important;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 990px) {
+    .custom-mt2-10 {
+        margin-top: 30px !important;
+    }
+}
+
+.btn.btn-carousel {
+    background: lightgrey !important;
+    padding-top: 2px !important;
+    padding-bottom: 0 !important;
+    padding-right: 1em !important;
+    padding-left: 1em !important;
+    border-radius: 10px !important;
+}
+
+
+.btn-submit {
+    font-weight: 700 !important;
+    font-family: 'Baloo Tamma 2', cursive;
+    font-size: 16px !important;
+    background: #fcd243 !important;
+    padding: 10px 25px !important;
+    border-radius: 10px !important;
+}
+
+.text-yellow {
+    color: #fcd243 !important;
+}
+
+.bg-dark {
+    background: #4c4c4c
+}
+
+
+
+.book {
+    background: #ffffff !important;
+    border-radius: 12px !important;
+    width: 23% !important;
+    margin-left: 0.4em !important; 
+    margin-right: 0.4em !important;
+}
+
+.book .btn {
+    background: #224314 !important;
+    color: #ffffff !important;
+    font-size: 0.9em !important
+}
+
+.booked {
+    background: #e5eae6 !important;
+    border-radius: 12px !important;
+    width: 23% !important;
+    margin-left: 0.4em !important; 
+    margin-right: 0.4em !important;
+}
+
+.booked .btn {
+    background: #b7e57e !important;
+    color: #224314 !important;
+    font-size: 0.9em !important;
+}
+
+.unavailable {
+    background: #dddddd !important;
+    border-radius: 12px;
+    width: 23% !important;
+    margin-left: 0.4em !important; 
+    margin-right: 0.4em !important;
+}
+
+.unavailable .btn {
+    background: #aaaaaa !important;
+    color: #eee !important;
+    font-size: 0.9em !important
+}
+
+@media only screen and (max-width: 1200px) {
+    .unavailable .btn {
+        font-size: 0.7em !important
+    }
+
+    .booked .btn {
+        font-size: 0.7em !important
+    }
+
+    .book .btn {
+        font-size: 0.7em !important
+    }
+}
+
+.searchBookAPT {
+    border: .1px solid #ced4da !important;
+    background-color: #ffffff !important;
+    color: black !important;
+    height: 38px;
+}

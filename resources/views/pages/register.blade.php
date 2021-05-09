@@ -1,0 +1,1 @@
+register page coming from blade
