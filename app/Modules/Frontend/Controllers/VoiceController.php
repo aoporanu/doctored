@@ -92,14 +92,12 @@ class VoiceController extends Controller
     public function newCall(Request $request): VoiceResponse|Response
     {
         $response = new VoiceResponse();
-//        $callerIdNumber = config('services.twilio')['number'];
 
         $dial = $response->dial(null, ['callerId' => $this->_from]);
         $phoneNumberToDial = $request->number_to_call;
         $phoneNumberToDial = '+40771331910';
 
         if (isset($phoneNumberToDial)) {
-            dump($dial->number($phoneNumberToDial));
             $dial->number($phoneNumberToDial);
         } else {
             $dial->client('support_agent');
