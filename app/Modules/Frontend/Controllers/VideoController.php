@@ -60,9 +60,6 @@ class VideoController extends Controller
     {
         $this->middleware('auth:patient');
 
-        // Twilio credentials
-        $this->_accountSid = 'ACf845507f7a707d3abea134806c1bb143';
-        $this->_auth_token = 'dbccbd5ed0c9951cbb3f0b6b58bf52f1';
 
         //The twilio number you purchased
         $this->_from = env('TWILIO_PHONE_NUMBER');
@@ -112,6 +109,4 @@ class VideoController extends Controller
     {
         $this->_auth_token = $auth_token;
     }
-
-
 }
