@@ -25,13 +25,10 @@ class VoiceController extends Controller
 
         // Twilio credentials
         $this->_account_sid = env('ACCOUNT_SID');
-//        $this->_account_sid = 'ACf845507f7a707d3abea134806c1bb143';
         $this->_auth_token = env('AUTH_TOKEN');
-//        $this->_auth_token = 'dbccbd5ed0c9951cbb3f0b6b58bf52f1';
 
         //The twilio number you purchased
         $this->_from = env('TWILIO_PHONE_NUMBER');
-//        $this->_from = '+18166702395';
 
         // Initialize the Programmable Voice API
         try {
@@ -43,14 +40,11 @@ class VoiceController extends Controller
 
     public function initiateCall(Request $request)
     {
-        $this->_account_sid = 'AC2151d44ff5385f9be64e31f59e5f02ec';
-//        $this->_account_sid = 'ACf845507f7a707d3abea134806c1bb143';
-        $this->_auth_token = '3e4a51bb1c11489e002628ff9888704a';
-//        $this->_auth_token = 'dbccbd5ed0c9951cbb3f0b6b58bf52f1';
+        $this->_account_sid = env('ACCOUNT_SID');
+        $this->_auth_token = env('AUTH_TOKEN');
 
         //The twilio number you purchased
         $this->_from = '+12063095596';
-//        $this->_from = '+18166702395';
 
         // Initialize the Programmable Voice API
         try {
