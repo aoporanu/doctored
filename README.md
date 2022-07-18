@@ -5,4 +5,4 @@ especially during these trying times.
 ## Technologies used
 
 - [Twilio](https://www.twilio.com)
-  Alternatively you can use the WenRTC protocol through the VueJS component built-in
+  Alternatively you can use the WebRTC protocol through the VueJS component built-in
